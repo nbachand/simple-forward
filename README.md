@@ -6,7 +6,7 @@ simple scripts for jupyter forwarding
 2) edit port number (choose random 5 digit number starting wtih 5) in connect.sh, disconnect.sh and host.sh
 3) edit ssh command in connect.sh
 4) edit suggested conda env in host.sh. For non-conda, change command or remove this and run host.sh from desirde env directly
-5) bookmark the url http://localhost:<port number>/lab. This is how to connect to the jupyter server. If you need to install jupyter lab: https://jupyter.org/install
+5) bookmark the url http://localhost:<port number>/lab. This is how to connect to the jupyter server.
 
 ## How to use
 ### On Cluster
