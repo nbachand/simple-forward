@@ -25,4 +25,5 @@ simple scripts for jupyter forwarding
 
 Note: Open scripts should remain open upon reconnecting. Terminals opened via jupyter will have closed.
 
-
+## Official Sherlock Documentation
+https://vsoch.github.io/lessons/sherlock-jupyter/
