@@ -9,4 +9,4 @@ env=${env:-pycascade}
 echo $env
 conda activate $env
 
-jupyter-notebook --no-browser --port=$port --ip=`hostname -s`
+jupyter-lab --no-browser --port=$port --ip=`hostname -s`
