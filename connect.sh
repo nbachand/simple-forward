@@ -4,8 +4,8 @@
 port=52938
 usr="nbachand"
 
-read -p "Enter node number [57]: " node
-node=${node:-57}
+read -p "Enter node address [02-01n57]: " node
+node=${node:-02-01n57}
 echo $node
 
-ssh -f -L localhost:$port:sh02-01n$node:$port $usr@login.sherlock.stanford.edu sleep 300
+ssh -f -L localhost:$port:sh$node:$port $usr@login.sherlock.stanford.edu sleep 300
